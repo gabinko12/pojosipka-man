@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta name="google-site-verification" content="CvHuYc2MdGUKfmrfFU2z5e4_PCwuuJ-13cLcXMVMYd4" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puhački Orkestar Josip KAŠMAN</title>
+    <link rel="stylesheet" type="text/css" href="Home_Page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+ <div class="container">
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#povijest_orkestra" >POVIJEST ORKESTRA</a></li>
+      <li><a href="#konerti">KONCERTI +</a>
+        <div class="koncerti">
+          <ul><li><a href="#Božićno_novogodišnji" >BOŽIĆNO NOVOGODIŠNJI</a></li></ul>
+          <ul><li><a href="#Uskrsni" >USKRSNI</a></li></ul>
+          <ul><li><a href="#Nautički" >NAUTIČKI</a></li></ul>
+        </div>
+      </li>
+      <li><a href="#događanja" >DOGAĐANJA +</a>
+        <div class ="submenu1">
+          <ul>
+            <li>
+              <a href="#flig">FLIG FESTIVAL</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+  
+     <li><a href="#uključi_se" >UKLJUČI SE I TI</a></li>
+     <li><a href="#kontakt" >O NAMA</a></li>
+    </ul>
+  </nav>
+
+
+
+    <div class="menu" id="toggle-button" onclick="myFunction(this)"  onclick="menu_active()">
+
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+
+    </div>
+      <nav class="mobile-nav" id="mobile-nav">
+        <ul id="links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#povijest_orkestra" >POVIJEST ORKESTRA</a></li>
+        <li><a class="koncerti_li" href="#konerti">KONCERTI +</a>
+          <div class="koncerti">
+            <ul><li><a href="#Božićno_novogodišnji" >BOŽIĆNO NOVOGODIŠNJI</a></li></ul>
+            <ul><li><a href="#Uskrsni" >USKRSNI</a></li></ul>
+            <ul><li><a href="#Nautički" >NAUTIČKI</a></li></ul>
+          </div>
+        </li>
+        <li><a class="događanja_li" href="#događanja" >DOGAĐANJA +</a>
+  
+                <div class ="submenu1">
+                  <ul>
+                      <li>
+                        <a href="#flig">FLIG FESTIVAL</a>
+                      </li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#uključi_se" >UKLJUČI SE I TI</a></li>
+              <li><a href="#kontakt" >O NAMA</a></li>
+          </ul>
+
+        </nav>
+
+
+        <script>
+          const toggleButton = document.getElementById("toggle-button");
+          const navList = document.getElementById("mobile-nav");
+          const links = document.getElementById("links");
+
+          
+          toggleButton.addEventListener("click", () => {
+            navList.classList.toggle("active");
+          }) 
+
+          links.addEventListener("click", () => {
+            navList.classList.remove("active");
+            toggleButton.classList.toggle("change");
+          }) 
+
+        </script>
+
+
+
+  <!--HOME-->
+
+
+  <section id="home">
+    <a class="facebook-icon" href="https://m.facebook.com/groups/110757935648188/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+    
+  <div class="logo"></div>
+  <h1 class="title" id="title_home"><span class="auto-type"></span></h1>
+    <p class="p_home">Informacije o orkestru "Josip Kašman"  <br>možete pogledati na ovoj<br> web stranici</p>
+  </section>
+
+
+
+
+  <!--Povijest orkestra-->
+  <section id="povijest_orkestra">
+    <h1 class="title" id="pov">POVIJEST ORKESTRA</h1>
+      <p class="pov" id="title_home_p">Puhački orkestri na području Lošinja djeluju od druge polovice 19.stoljeća, a kao prvi kapelnik spominje se Talijan Giuseppe Bozzoti, godine 1875. inače bliski suradnik i prijatelj Giuseppea Verdija. Od 1890. do 1910. orkestar je vodio Lošinjan Vittorio Craglietto koji je 40 godina bio orguljaš i voditelj zbora Župne crkve u Lošinju. Između dva svijetska rata orkestar djeluje povremeno, ovisno o prisutnosti i angmažanu pojedinih dirigenata. Nakon Drugog svjetskog rata orkestar je formiran u Velom Lošiju, a vodio ga je maestro Josip Legaz. Nakon njegove smrti orkestar vode, u kraćim razdobljima, razni dirigenti, uglavnom djelatne vojne osobe. Nakon kraćeg prekida orkestar je svoj rad obnovio 1966. god. u Malom Lošinju, pod vodstvom maestra Josipa Smojvera i od tada kontinuirano djeluje sve do danas. Devedesetih godina orkestar se organizira kao udruga građana, a od 2001.orkestar vodi maestro Davor Mužić.</p>
+  </section>
+
+
+
+
+
+
+
+  <!--Božić-->
+  <section id="Božićno_novogodišnji">
+  <div class="title">
+    
+    
+    <h1 class="title_b" id="title1">BOŽIĆNO NOVOGODIŠNJI KONCERT</h1></div>
+  
+    <p class="božić_p">PO Josip Kašman tradicionalno održava Božićno novogodišnji koncert u kino sali Malog Lošinja u Adventsko vrijeme. Koncert je humanitarnog karaktera, a zbog dobre posjećenosti održava se u više večeri zaredom. Uz neizostavne pjesme Božićnog karaktera orkestar svira razne obrade popularne i filmske glazbe te klasike. Neke izvedbe možete poslušati ovdje.</p>
+  
+    <div class="more">  
+   
+      <video  class="himna" controls  loop  src="videos/Božićno - novogodišnji koncert crop.mp4"></video>
+   
+  
+    <div class="information"><h3> <i>MORE COMPOSITIONS </i> </h3></div>    
+      <div class="songs1">
+
+      <ul><li><p >DON'T STOP ME NOW<a class="link1" href="https://youtu.be/d4EKQiSXcsQ?t=612" target="_blank"> HERE</a></p></li></ul>
+      <ul><li><p >TOTAL TOTO<a class="link1" href="https://youtu.be/d4EKQiSXcsQ?t=787" target="_blank"> HERE</a></p></li></ul>
+      <ul><li><p >MISSION: IMPOSIBLE<a class="link1" href="https://youtu.be/d4EKQiSXcsQ?t=1280" target="_blank"> HERE</a></p></li></ul>
+  </div>
+  </div>
+  </section>
+
+
+
+
+
+
+  <!--Uskrs-->
+  <section id="Uskrsni"> 
+  <div class="title">
+    <h1 class="title_u" id="title2">USKRSNI KONCERT</h1></div>
+  <p class="uskrs_p">Koncerti klasične glazbe izvode se u crkvama našeg otočja: Malom Lošinju, Velom Lošinju, Nerezinama i Cresu. Neke izvedbe možete poslušati ovdje.</p>
+    
+    <video class="haleluja" controls loop  src="videos/HALeluja.mp4"></video>
+
+
+  <div class="more2"> 
+    <div class="information2"><h3><i> MORE COMPOSITIONS</i> </h3></div>    
+    <div class="songs2">
+    <ul><li><p > A WHITER SHADE OF PALE<a class="link2" href="https://youtu.be/0v4iEIB1VIw?t=1436" target="_blank"> HERE</a></p></li></ul>
+    <ul><li><p >PSALM XIX watch<a class="link2" href="https://youtu.be/0v4iEIB1VIw?t=108" target="_blank"> HERE</a></p></li></ul>
+    <ul><li><p >JUNIOR CONCERTO FOR FLUTE AND BAND watch<a class="link1" href="https://youtu.be/0v4iEIB1VIw?t=1023" target="_blank"> HERE</a></p></li></ul>
+  </div>
+  </div>
+  </section>
+
+
+
+
+
+
+  <!--Nautički-->
+  <section id="Nautički">
+  <h1 class="title" id="nautički">NAUTIČKI KONCERT</h1>
+    <p class="nautički_p">Druge nedjelje Augusta održava se koncert u uvali Engleza na otoku Koludarcu. Specifičnost da se koncert dolazi jedino plovilom, a glazba se izvodi sa obale ili broda Nerezinac. Koncert je uvijek jako dobro posjećen što se može zaključiti uvalom popunjenom svakojakim plovilima.</p>
+
+  </section>
+
+
+
+  <!--flig-->
+  <section id="flig">
+    <h1>FLIG FESTIVAL</h1>
+    <p>PO Josip Kašman od 9. - 11. rujna 2022 sudjeluje na <br>Međunarodnom susretu limenih glazbi u Daruvaru.</p>
+  </section>
+
+
+
+
+
+    <!--uključi se-->
+    <section id="uključi_se">
+      <h1 class="title" id="uključi_se_title">UKLJUČI SE I TI</h1>
+      <p class="uključi_se">Želiš li naučiti svirati puhački instrument? Upoznati nove prijatelje? Zabaviti se i putovati? Postati član orkestra? UPIŠI INTERNI TEČAJ PO JOSIP KAŠMAN.<br> KAKO SE PRIJAVITI?<br>
+    <div class="uključi_se_p">
+      <ul><li>putem Facebook stranice</li></ul>      <br>
+      <ul><li>mail : pojosipkasman@gmail.com</li></ul><br>
+      <ul><li>ili na broj 0996984672</li></ul></p> </div>   
+    </section>
+  
+  
+  
+  
+    <!--o nama-->
+    <section id="kontakt">
+    <h1 class="title" id="kontaktirajte_nas">O NAMA</h1>
+    <div class="info">
+      <ul><li> ADRESA : Del Conte Giovanni 1 iz Malog Lošinja</li></ul>
+
+      <ul><li> PREDSJEDNIK PO JOSIP KAŠMAN : Boris Franki Pahljina Hernandez</li></ul>
+  
+      <ul><li> MOB : 098 816 724</li></ul>
+  
+      <ul><li> DIRIGENT : Davor Mužić</li></ul>
+  
+      <ul><li> MOB : 099 698 4672</li></ul>
+  
+      <ul><li> E_MAIL : pojosipkasman@gmail.com</li></ul>
+
+      <ul><li> OIB : 40060260043</li></ul>
+
+      <ul><li> IBAN : 4324070001148038220</li></ul>
+
+      <ul><li class="izradio">Izradio : Gabriel Pahljina Hernandez uz pomoć HTML-a, CSS-a i JAVASCRIPT-a</li></ul>
+
+    </div>
+  
+    </section>
+
+</div>
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+<!--HOME PAGE TEXT-->
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+
+  <script> var typed = new Typed(".auto-type", {
+    strings: ["HOME PAGE", "PO JOSIP KAŠMAN"],
+    typeSpeed: 250,
+    backSpeed: 170,
+    loop: true
+  })
+  </script>
+
+
+<!--HOME PAGE TEXT END-->
+
+
+
+
+
+
+
+<script src="mobile-menu.js"></script>
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+</body>
+</html>
